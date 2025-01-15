@@ -3,6 +3,21 @@ h1{
     text-align: center;
 }
 
+body{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-image: url(https://media.istockphoto.com/id/1007768414/photo/blue-sky-with-bright-sun-and-clouds.jpg?s=612x612&w=0&k=20&c=MGd2-v42lNF7Ie6TtsYoKnohdCfOPFSPQt5XOz4uOy4=);
+}
+
 p{
     text-align: justify;
+    font-family:  Helvetica;
+    line-height: 120%;
+}
+
+.Text{
+    text-transform: uppercase;
 }

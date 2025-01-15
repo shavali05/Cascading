@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Travel Agency</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+        }
+        .destinations img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin: 10px;
+        }
+        .destinations {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        footer {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Travel Agency</h1>
+        <p>Your Gateway to Amazing Destinations</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Explore Travel Agency! We specialize in creating unforgettable travel experiences for adventurers, families, and explorers. Let us help you discover the world!</p>
+    </section>
+    <section id="destinations">
+        <h2>Featured Destinations</h2>
+        <div class="destinations">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPUHCYKm2lBsfjOdlMoatTSjp5YGfQChBkEg&s" alt="Destination 1">
+                <p>Bali, Indonesia</p>
+            </div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeGW719hVuslYuS-VAad3Cik62zt1wF7j9ig&s" alt="Destination 2">
+                <p>Paris, France</p>
+            </div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvNR2JlX_2CQUiEdCV5rlykBD_m-QENmn-cw&s" alt="Destination 3">
+                <p>Tokyo, Japan</p>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Custom Travel Packages</li>
+            <li>Flight and Hotel Booking</li>
+            <li>Group Tours</li>
+            <li>Travel Insurance</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section class="Feed">  
+        <h3>Feedback:</h3>
+        <label for="Feedback"></label>
+        <textarea id="Feedback" name="Feedback" placeholder="Please leave a Feedback!!" rows="10" cols="100"></textarea><br><br>
+    </section>
+    <footer>
+        <p>&copy; 2025 Explore Travel Agency. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
