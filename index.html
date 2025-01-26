@@ -3,26 +3,156 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio</title>
+    <style>
+        *{
+            font-family: monospace;
+        }
+        body{
+            margin: 1px;
+            background-color: #f0f8ff;
+            font-size: 15px;
+           
+        }
+        main{
+            padding: 20px;
+        }
+        header{
+            height: 100vh;
+            background-color: #2196f3;
+        }
+        h2{
+            font-size: 50px;
+            color: #2196f3;
+        }
+        header h1{
+            font-size: 60px;
+            padding: 20px;
+            margin: 0%;
+        }
+        .button{
+            height: 40px;
+            width: 140px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: grey;
+        }
+        img{
+            height: 200px;
+        }
+        section{
+            height: 100vh;
+            border: 1px solid grey;
+            margin: 10px;
+
+        }
+        footer{
+            padding: 20px;
+            border: 1px solid grey;
+            margin: 10px;
+        }
+        .submit{
+            height: 40px;
+            width: 140px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            color: white;
+            background-color: #2196f3;
+        }
+        .submit:hover{
+            color: black;
+            background-color: #157cd0;
+        }
+        input{
+            border-radius: 5px;
+            height: 25px;
+            border: 1px solid lightgray;
+        }
+    </style>
   </head>
   <body>
-    <h1>This is a Heading Tag</h1>
-  
-    
+    <header>
+      <h1 style="color: antiquewhite;">Welcome to My Portfolio</h1>
+      <button class="button">About</button>
+      <button class="button">Skills</button>
+      <button class="button">Projects</button>
+      <button class="button">Contact</button>
+    </header>
+    <main>
+    <section>
+    <h2>Hi!! I'm Shaikshavali</h2>
+    <img src="My pic.jpg" alt="">
+    <p>I am passionate web developer with a focus on front end technologies.</p>
     <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum minus
-      atque ab, autem aperiam dolorem doloremque illo, vero beatae quo sapiente.
-      Vel vitae nisi similique perferendis, cum architecto veniam temporibus
-      cumque. Eius debitis tempora est nisi quibusdam odit exercitationem
-      aliquid doloribus! Omnis non cum, nulla officia aspernatur quaerat
-      exercitationem quia.
+      I am currently Pursuing my B.tech in
+      <em>Chaitanya Bharathi Institute of technology,Produttur</em>.
     </p>
-
-    <p class="Text">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, ipsa.
+    <p>I have learnt Web Development from <br />Code With Swaroop.</p>
+    <p>
+      You can <strong>Click here</strong> to checkout What I have learnt in
+      HTML,CSS,JS.
     </p>
+</section>
+<section>
+    <h2>My Skills</h2>
+    <ol>
+      <li>Python Basics</li>
+      <li>HTML Basics</li>
+      <li>CSS Basics</li>
+      <li>Javascript Basics</li>
+    </ol>
+    <h2>My Projects</h2>
+    <table border="black">
+      <tr>
+        <th>Project</th>
+        <th>Overview</th>
+      </tr>
+      <tr>
+        <td>Portfolio Website</td>
+        <td>I have bulit a Portfolio website</td>
+      </tr>
+      <tr>
+        <td>Python Sample Calculator</td>
+        <td>I have bulit a simple calculator</td>
+      </tr>
+    </table>
+</section>
+</main>
+<section>
+    <h1>Contact Me</h1>
+    <p>Feel free to get in touch with me</p>
+    <form action="">
+      <label for="name">Name:</label>
+      <input type="text" placeholder="Enter your name" />
+      <br />
+      <label for="Email">Email:</label>
+      <input type="text" placeholder="Enter you mail Id" />
+      <br>
+      <b>Choose your gender</b>
+    <div class="male">
+      <input type="radio" id="male" value="male" />
+      <label for="male">male</label>
+      <input type="radio" id="female" value="female" />
+      <label for="female">female</label>
+    </div>
+      <br />
+    <div class="female">
+      <b>Select your Interest</b>
+      <input type="checkbox" id="coding" value="coding" />
+      <label for="coding">Coding</label>
+      <input type="checkbox" id="Reading" value="Reading" />
+      <label for="Reading">Reading</label>
+    </div>
+      
+      <label for="bio">Bio:</label>
+      <input type="text" />
 
-    
+      <button type="button" class="Submit">Submit</button>
+    </form>
+  </section>
   </body>
 </html>
